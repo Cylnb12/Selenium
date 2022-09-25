@@ -26,7 +26,7 @@ public class C04_Xpath {/*
         WebElement ExpectedDeleteButton= driver.findElement(By.xpath("//*[@class='added-manually']"));
         if (ExpectedDeleteButton.isDisplayed()){
             System.out.println("Test 1 PASSED");
-        }else System.out.println("Test FAILED");
+        }else System.out.println("Test 1 FAILED");
         Thread.sleep(3000);
         ExpectedDeleteButton.click();
         WebElement ExpectedAddRemoveElements = driver.findElement(By.xpath("//*[@id=\"content\"]/h3"));
